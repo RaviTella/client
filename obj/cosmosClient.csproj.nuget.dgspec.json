@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ratella\\repos\\PPAFTesting (1)\\PPAFTesting\\CosmosClient\\cosmosClient\\cosmosClient\\cosmosClient.csproj": {}
+  },
+  "projects": {
+    "C:\\ratella\\repos\\PPAFTesting (1)\\PPAFTesting\\CosmosClient\\cosmosClient\\cosmosClient\\cosmosClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ratella\\repos\\PPAFTesting (1)\\PPAFTesting\\CosmosClient\\cosmosClient\\cosmosClient\\cosmosClient.csproj",
+        "projectName": "cosmosClient",
+        "projectPath": "C:\\ratella\\repos\\PPAFTesting (1)\\PPAFTesting\\CosmosClient\\cosmosClient\\cosmosClient\\cosmosClient.csproj",
+        "packagesPath": "C:\\Users\\ratella\\.nuget\\packages\\",
+        "outputPath": "C:\\ratella\\repos\\PPAFTesting (1)\\PPAFTesting\\CosmosClient\\cosmosClient\\cosmosClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ratella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.43.0-preview.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
