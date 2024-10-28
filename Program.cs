@@ -38,7 +38,8 @@ class Program
             MaxRetryAttemptsOnRateLimitedRequests = 0,
             EnableTcpConnectionEndpointRediscovery = true,
             IdleTcpConnectionTimeout = new TimeSpan(0, 10, 0),
-            OpenTcpConnectionTimeout = new TimeSpan(0, 0, 1),                     
+            OpenTcpConnectionTimeout = new TimeSpan(0, 0, 1),
+            ApplicationName = "",
         };
 
         // Only works if the service has the account enabled.
